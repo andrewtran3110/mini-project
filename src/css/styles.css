@@ -1,0 +1,384 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b60050;
+}
+
+.cl-gray {
+    color: #808080;
+}
+
+.header {
+    padding: 0 2rem;
+}
+
+.header .navbar-nav .nav-link {
+    color: #231f20;
+    font-weight: 700;
+}
+
+.header .navbar-nav .nav-link:hover {
+    color: #b60050;
+    border-bottom: 1px solid #b60050;
+}
+
+.header .navbar-brand img {
+    max-width: 100px;
+}
+
+.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+.navbar-toggler-icon {
+    background-size: 1rem 1rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.carousel-item {
+    height: 100vh;
+    position: relative;
+    filter: blur(4px) brightness(0.8);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 70%;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.carousel-caption .btn {
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash {
+    width: 5%;
+    border: 1px solid #231f20;
+}
+
+.about-us-text {
+    font-size: 17px;
+}
+
+.title-item {
+    position: relative;
+    margin: 0;
+    padding-bottom: 5px;
+    cursor: pointer;
+    color: #808080;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 2px solid;
+}
+
+.title-item:hover {
+    color: #000;
+}
+
+.title-item:active {
+    color: #b60050;
+    border-color: #b60050;
+}
+
+.title-item:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease;
+}
+
+.title-item:active::before {
+    width: 100%;
+}
+
+.aboutUs-item {
+    cursor: pointer;
+}
+
+.icon {
+    border: 1px solid #808080;
+    border-radius: 50%;
+    padding: 2rem;
+    margin-right: 2rem;
+    background: linear-gradient(to top, #007bff, #6f42c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.aboutUs-item:hover .icon {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title_aboutUs_item {
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.aboutUs-item:hover .title_aboutUs_item {
+    color: #b60050;
+}
+
+.text_aboutUs_item {
+    color: #808080;
+}
+
+.background_feature_work {
+    background-Image: url(../images/background-feature-work.jpg);
+    background-Size: cover;
+    background-Position: center;
+    height: 100vh;
+}
+
+.kilala-background_feature_work {
+    background-Image: url(../images/kilala-background-feature-work.png);
+    background-Size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-beautiful-typography {
+    background-Image: url(../icon/icon-beautiful-typography.png);
+    background-Size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-layered-PSD-files {
+    background-Image: url(../icon/icon-layered-PSD-files.png);
+    background-Size: contain;
+    background-repeat: no-repeat;
+}
+
+.text {
+    color: #fff;
+}
+
+.recent_works {
+    background-color: #b60050;
+}
+
+.icon_recent {
+    color: #fff;
+}
+
+.text_recent {
+    color: #fff;
+}
+
+.icon-container {
+    width: 200px;
+    height: 160px;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_associated_company {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.icon_apple {
+    background-image: url('../icon/icon-apple.png');
+}
+
+.icon_aqua {
+    background-image: url('../icon/icon-aqua.png');
+}
+
+.icon_beko {
+    background-image: url('../icon/icon-beko.png');
+}
+
+.icon_casper {
+    background-image: url('../icon/icon-casper.png');
+}
+
+.icon_samsung {
+    background-image: url('../icon/icon-samsung.png');
+}
+
+.icon_daikin {
+    background-image: url('../icon/icon-daikin.png');
+}
+
+.icon_dell {
+    background-image: url('../icon/icon-dell.png');
+}
+
+.icon_lg {
+    background-image: url('../icon/icon-lg.png');
+}
+
+.icon_panasonic {
+    background-image: url('../icon/icon-panasonic.png');
+}
+
+.icon_sharp {
+    background-image: url('../icon/icon-sharp.png');
+}
+
+.content_blog {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-left-section {
+    position: relative;
+    background-image: url('../images/Website-Design.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+    color: #fff;
+}
+
+.button_featured_post,
+.button_popular {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+}
+
+.button_read_more {
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 12px;
+    border-radius: unset;
+    margin-bottom: 5rem;
+}
+
+.custom-text {
+    font-size: 12px;
+}
+
+.bg-top-right-section {
+    position: relative;
+    background-image: url('../images/Design-Better.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 50vh;
+    color: #fff;
+}
+
+.bottom-right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.line {
+    border: 1px solid #b60050;
+    width: 5rem;
+}
+
+.custom_text_kilala_resource {
+    font-size: 12px;
+    color: #888;
+    margin: 0 5.4rem;
+}
+
+.button_all_artciles {
+    background-color: #414447;
+    border: 1px solid #231f20;
+    font-size: 12px;
+    border-radius: unset;
+    color: #fff;
+}
+
+.button_all_artciles:hover {
+    color: #fff;
+}
+
+.footer_bg_gray {
+    background-color: #d6d4d4;
+}
+
+.img_kilala_footer {
+    width: 6.1rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    padding-right: 40px;
+}
+
+.form-group i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+@media (max-width: 768px) {
+
+    .form-group input,
+    .form-group textarea {
+        padding-right: 30px;
+    }
+}
+
+.button_submit {
+    background-color: #414447;
+    border: #414447;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.button_submit:hover {
+    background-color: #888;
+    border: #888;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
